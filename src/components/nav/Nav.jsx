@@ -11,10 +11,10 @@ const Nav = () => {
     return ( 
         <nav>
             <a onClick={()=> setActiveNav("#")} className={activeNav === "#" ? "active" : " "} href="#"><AiOutlineHome/></a>
-            <a href="#about"><BiBook/></a>
-            <a href="#experience"><BiMessageDetail/></a>
-            <a href="#services"><RiServiceFill/></a>
-            <a href="#contact"><AiOutlineUser/></a>
+            <a onClick={()=> setActiveNav("#about")} className={activeNav === "#about" ? "active" : " "}href="#about"><BiBook/></a>
+            <a onClick={()=> setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : " "}href="#experience"><BiMessageDetail/></a>
+            <a onClick={()=> setActiveNav("#services")} className={activeNav === "#services" ? "active" : " "}href="#services"><RiServiceFill/></a>
+            <a onClick={()=> setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : " "}href="#contact"><AiOutlineUser/></a>
         </nav>
     );
 }
