@@ -1,6 +1,6 @@
 const Experience = () => {
     return ( 
-        <div>experience</div>
+        <section id="experience">experience</section>
     );
 }
  
