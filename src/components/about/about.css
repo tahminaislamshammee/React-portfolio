@@ -1,22 +1,17 @@
-.title {
-    text-align: center;
-    padding: 40px 0;
-}
+
 .about__container {
     display: flex;
     gap: 10%;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .about__me {
-    width: 200px;
+    width: 50%;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: flex;
     align-items: center;
     aspect-ratio: 1/1;
-    height: 200px;
     margin-bottom: 20px;
 }
 .about__me-img {
@@ -67,3 +62,16 @@
     color: var(--color-light);
 }
 
+
+/* media queries for md device */
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* media queries for sm device */
+@media screen and (max-width: 600px) {
+    .about__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
