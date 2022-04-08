@@ -1,6 +1,11 @@
+import Title from '../title/Title';
+import './testimonials.css'
+
 const Testimonials = () => {
     return ( 
-        <div>testimonials</div>
+    <section id="testimonials">
+        <Title title="Testimonials" subtitle="Review from Clients"/>
+    </section>
     );
 }
  
